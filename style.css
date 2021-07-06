@@ -6,7 +6,7 @@
 
     .container{
         padding: 60px;
-    }
+        }
 
     span{
         font-weight: bolder;
@@ -33,6 +33,7 @@
 
     .top-banner{
         display: flex;
+       
     }
 
     #banner-text{
@@ -103,6 +104,10 @@
         margin: 0 50px;
         border-radius: 7%;
 
+    }
+
+    .card-item p,h2{
+                text-align: center;
     }
 
 
