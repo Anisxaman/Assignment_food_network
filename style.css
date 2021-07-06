@@ -56,6 +56,10 @@
         border-radius: 40px;
         color: white;
         font-weight: 700;
+        box-shadow:2px -1px 17px -3px rgb(0 0 0 / 81%);
+
+        
+
     }
 
     /* ---------------------about_me_section starts --------------------------------*/
@@ -133,19 +137,19 @@
     }
     
 
-    public-reach-items{
+    .public-reach-items{
         
 
-        width: 45%;
+        width: 15%;
         padding: 20px;
-        box-shadow:1px -1px 38px 14px rgb(0 0 0 / 81%);
         margin: 0 50px;
         border-radius: 7%;
         align-items: center;
     }
 
-    public-reach-items h1{
+    .public-reach-items h1{
         font-weight: bolder;
+        font-size: 30px;
     }
 
 
@@ -164,7 +168,13 @@
     }
     
     
-    footer a,p{
+    footer a{
+        color: white;
+        margin: 0 10px;
+    }
+
+
+    footer p{
         color: white;
         margin: 0 10px;
     }
